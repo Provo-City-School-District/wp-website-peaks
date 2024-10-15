@@ -19,7 +19,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title><?php if (is_home()) { ?>News | <?php } ?><?php if (is_page()) {
 															the_title(); ?> | <?php } ?><?php if (is_single()) {
-																											the_title(); ?> | <?php } ?><?php bloginfo('name'); ?></title>
+																							the_title(); ?> | <?php } ?><?php bloginfo('name'); ?></title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:700,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/assets/slick/slick.css' ?>" />
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/assets/slick/slick-theme.css' ?>" />
@@ -28,8 +28,9 @@
 </head>
 
 <body>
-	<a class="skip-to-menu" href="#mainMenu">Skip to main menu</a>
-	<a class="skip-to-content" href="#contentArea">Skip to main content</a>
+	<a class="skip-to-link" href="#trp-floater-ls">Skip to Translation</a>
+	<a class="skip-to-link" href="#mainMenu">Skip to Main Menu</a>
+	<a class="skip-to-link" href="#contentArea">Skip to Main Content</a>
 	<header id="pcsdBranding">
 		<img src="<?php echo get_template_directory_uri() . '/assets/icons/pcsd-logo-website-header-branding.png' ?>" alt="Provo City School District Logo" />
 		<h1><a href="https://provo.edu">Provo City School District</a></h1>
