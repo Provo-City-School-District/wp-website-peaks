@@ -299,7 +299,7 @@ Main Menu
 }
 
 #mainMenu>ul>li>a:hover {
-	color: var(--theme-gray);
+	color: var(--link-hover-color);
 }
 
 .mega-menu {
